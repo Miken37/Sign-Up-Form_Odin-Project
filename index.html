@@ -25,15 +25,29 @@
             </div>
             <div class="middle-form">
                 <div class="form-title">Let's do this!</div>
-                <form action="">
-                    <label for="fname">First Name:</label>
-                    <label for="lname">Last Name:</label><br>
-                    <input type="text" name="fname" id="fname" placeholder="John">
-                    
-                    <input type="text" name="lname" id="lname" placeholder="Doe"><br>
-                    <label for="email">Email:</label><br>
-                    <input type="email" name="email" id="email">
+                <form action="#">
+                    <div class="form-container">
+                        <div class="left-form">
+                            <label for="fname">First Name:</label>
+                            <input type="text" name="fname" id="fname" placeholder="John">
+                            <label for="email">Email:</label><br>
+                            <input type="email" name="email" id="email" placeholder="you@example.com">
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" id="password">
+                        </div>
+                        <div class="right-form">
+                            <label for="lname">Last Name:</label>
+                            <input type="text" name="lname" id="lname" placeholder="Doe">
+                            <label for="phone">Phone Number:</label>
+                            <input type="text">
+                            <label for="Confirm-password">Confirm Password:</label>
+                            <input type="password" name="password" id="password">
+                        </div>
+                    </div>
                 </form>
+            </div>
+            <div class="bottom">
+                <input type="submit" value="Create Account" class="submit-btn">
             </div>
         </div>
         
