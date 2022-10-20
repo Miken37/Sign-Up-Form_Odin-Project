@@ -116,6 +116,7 @@ input{
 
 input:focus{
     border: solid rgb(225, 0, 255) 2px;
+    box-shadow: 2px 2px 5px rgb(225, 0, 255);
 }
 .form-container{
     display: flex;
@@ -133,4 +134,24 @@ input:focus{
 .submit-btn{
     border: 2px solid rgb(225, 0, 255);
     color: rgb(225, 0, 255);
+    margin: 30px;
+    margin-left: 50px;
+    height: 50%;
+    font-size: 1.5em;
+    width: 250px;
+    font-weight: bold;
+}
+
+.submit-btn:hover{
+    background-color: rgb(225, 0, 255);
+    color: black;
+    box-shadow: 2px 2px 5px rgb(225, 0, 255);
+}
+
+a {
+    color: rgb(225, 0, 255)
+}
+
+a:hover{
+    color: white;
 }
