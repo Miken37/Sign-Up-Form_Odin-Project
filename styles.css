@@ -1,0 +1,7 @@
+:root{
+    --main_color: slategray;
+}
+
+body{
+    background-color: var(--main_color);
+}
